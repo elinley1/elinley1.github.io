@@ -38,11 +38,11 @@ h6 {
 }
 
 .floated {
-  float:left;
+  position: relative;
 }
 
 .lead {
-  position: relative;
+  float: right;
 }
 
 .text-faded {
