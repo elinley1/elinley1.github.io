@@ -41,8 +41,8 @@ h6 {
   float:left;
 }
 
-.lead mb-5 {
-  float:right;
+.lead {
+  position: relative;
 }
 
 .text-faded {
