@@ -8,3 +8,29 @@
 @import "portfolio";
 @import "footer";
 @import "bootstrap-overrides";
+
+.lead mb-5 {
+    word-wrap: break-word;
+}
+
+.headshot {
+    margin-right: 20px;
+    padding: 5px;
+    
+    width: 250px;
+}
+
+#about {
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#about-txt {
+    text-align: left;
+}
+
+#resume {
+    display: block;
+    margin: 0 auto;
+}

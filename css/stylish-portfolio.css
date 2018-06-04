@@ -10,8 +10,6 @@ body {
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
-  position: relative;
-  left: 50%;
 }
 
 .content-section {
@@ -35,17 +33,6 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-}
-
-.floated {
-  position: left;
-  margin-right: 10px;
-}
-
-.mb-5 {
-  word-wrap: break-word;
-  margin: 0 0 10px;
-  text-align: justify;
 }
 
 .text-faded {
@@ -246,7 +233,6 @@ h6 {
   position: relative;
   overflow: hidden;
   max-width: 530px;
-  height: 370;
   margin: auto auto 1rem;
 }
 
@@ -267,15 +253,14 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content h2 {
-  font-size: 1.5rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
 }
 
 .portfolio-item .caption .caption-content p {
-  font-weight: 800;
+  font-weight: 300;
   font-size: 1.2rem;
 }
-
 
 @media (min-width: 992px) {
   .portfolio-item {
@@ -314,19 +299,20 @@ footer.footer {
   padding-bottom: 5rem;
 }
 
-.svg-inline--fa.fa-w-16 {
-  font-size: 20px;
-  float: left;
-  margin-right: 30px;
+footer.footer .social-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #1D809F;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
-.svg-inline--fa.fa-w-14 {
-  font-size: 20px;
-  float: left;
-  margin-right: 30px;
-}
-.svg-inline--fa.fa-w-12 {
-  font-size: 20px;
-  float: left;
+
+footer.footer .social-link:hover {
+  background-color: #155d74;
+  text-decoration: none;
 }
 
 a {
@@ -378,4 +364,29 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+.lead mb-5 {
+  word-wrap: break-word;
+}
+
+.headshot {
+  margin-right: 20px;
+  padding: 5px;
+  width: 250px;
+}
+
+#about {
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#about-txt {
+  text-align: left;
+}
+
+#resume {
+  display: block;
+  margin: 0 auto;
 }
